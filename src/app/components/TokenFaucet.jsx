@@ -6,6 +6,7 @@
   import { CONTRACT_ADDRESSES } from "../config/constants";
   import { tokenFaucetABI } from "../lib/abis/tokenFaucet";
   import { platformTokenABI } from "../lib/abis/platformToken";
+  import toast from "react-hot-toast";
 
   export default function TokenFaucet() {
     const { account } = useWallet();

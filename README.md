@@ -1,1 +1,2 @@
-link for NFT_MARKET_PLACE_BLOCKCHAIN_BASE = https://nft-market-place-decentralized.vercel.app/
+link for NFT_MARKET_PLACE_BLOCKCHAIN_BASE = https://nft-market-place-mauve.vercel.app/
+

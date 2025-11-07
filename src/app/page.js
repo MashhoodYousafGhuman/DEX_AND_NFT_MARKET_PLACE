@@ -29,7 +29,7 @@ export default function Home() {
           className="bg-gradient-to-r from-blue-500 to-blue-600 p-10 rounded-3xl shadow-2xl text-center"
         >
           <h1 className="text-5xl font-extrabold text-white mb-3">
-            SwapMarket DEX
+            MYG DEX
           </h1>
           <p className="text-blue-100 mb-8 text-lg">
             Multi-token DEX & NFT Marketplace on Kasplex
@@ -55,7 +55,7 @@ export default function Home() {
         className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-3xl p-5 mb-6 shadow-xl"
       >
         <div className="flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-white">SwapMarket DEX</h1>
+          <h1 className="text-3xl font-bold text-white">MYG DEX</h1>
           <div className="flex items-center space-x-4">
             <span className="bg-white/20 text-white px-4 py-1 rounded-full font-mono text-sm">
               {formatAddress(account)}

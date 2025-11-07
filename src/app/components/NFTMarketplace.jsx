@@ -6,6 +6,7 @@ import { getSigner, formatBalance } from "../utils/web3";
 import { CONTRACT_ADDRESSES } from "../config/constants";
 import { nftMarketplaceABI } from "../lib/abis/nftMarketplace";
 import { nftCollectionABI } from "../lib/abis/nftCollection";
+import toast from "react-hot-toast";
 
 export default function NFTMarketplace() {
   const { account } = useWallet();
@@ -19,6 +20,7 @@ export default function NFTMarketplace() {
   const [debugInfo, setDebugInfo] = useState("");
   const [basePrice, setBasePrice] = useState("0");
   const [displayPrices, setDisplayPrices] = useState({});
+  
 
   const paymentTokens = [
     {
@@ -582,9 +584,6 @@ export default function NFTMarketplace() {
     <div className="space-y-6">
       {/* Debug Info */}
       <div className="glass-card p-4 rounded-2xl bg-yellow-100">
-        <h3 className="text-lg font-bold text-gray-200 mb-2">
-          Debug Information
-        </h3>
         <p className="text-sm text-gray-300 break-all">{debugInfo}</p>
         <p className="text-sm text-gray-300">
           {/* Base Price: {formatBalance(basePrice)} SMKT */}
